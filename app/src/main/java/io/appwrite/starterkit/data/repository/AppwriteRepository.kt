@@ -30,7 +30,7 @@ class AppwriteRepository private constructor(context: Context) {
 
     private val account: Account = Account(client)
     private val databases: Databases = Databases(client)
-
+const val APPWRITE_PROJECT_ID = "6864b892003b992580d9"
     /**
      * Pings the Appwrite server.
      * Captures the response or any errors encountered during the request.
